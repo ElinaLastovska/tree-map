@@ -4,7 +4,7 @@ This is a Java program that counts the number of trees that are visible from at 
 ## Requirements
 To run this program, you need to have the following:
 
-Java 8 or higher installed on your machine
+- Java 8 or higher installed on your machine
 A text file containing the matrix of tree heights. The file should be named map.txt and should be located in the src/main/java directory.
 Usage
 To run the program, simply execute the main method in the Main class. The program will read the matrix of tree heights from the map.txt file and output the number of visible trees.
