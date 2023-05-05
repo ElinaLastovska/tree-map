@@ -1,4 +1,4 @@
-# tree-map
+# Tree-map
 This is a Java program that counts the number of trees that are visible from at least one direction, given a 2D matrix of tree heights.
 
 ## Requirements
@@ -14,14 +14,14 @@ The program works by iterating over each cell in the matrix and checking if the 
 
 The program uses four helper methods to check if a tree is visible from a particular direction:
 
-- isSeenFromLeftSide: Checks if the tree is visible from the left side
-- isSeenFromRightSide: Checks if the tree is visible from the right side
-- isSeenFromUp: Checks if the tree is visible from the top
-- isSeenFromDown: Checks if the tree is visible from the bottom
+- `isSeenFromLeftSide`: Checks if the tree is visible from the left side
+- `isSeenFromRightSide`: Checks if the tree is visible from the right side
+- `isSeenFromUp`: Checks if the tree is visible from the top
+- `isSeenFromDown`: Checks if the tree is visible from the bottom
 These helper methods use two additional helper methods to determine if a tree is visible horizontally or vertically:
 
-- isVisibleVertically: Checks if the tree is visible in a vertical direction
-- isVisibleHorizontally: Checks if the tree is visible in a horizontal direction
+- `isVisibleVertically`: Checks if the tree is visible in a vertical direction
+- `isVisibleHorizontally`: Checks if the tree is visible in a horizontal direction
 The program reads the matrix of tree heights from the map.txt file using the getArray method, which returns a 2D array of integers.
 
 The program outputs the number of visible trees using the System.out.println method.
